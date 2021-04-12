@@ -1,5 +1,5 @@
 # GarellyPhoto
-This is a project that for personal gallery application that you display your photos for others to see. 
+This is a project for personal gallery application that you display your photos for others to see. 
 ## Author
 Floride Tuyisenge
 ## Technologies Used
