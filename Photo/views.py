@@ -1,8 +1,6 @@
 from django.shortcuts import render
-from django.http  import HttpResponse
+from imagegarelly.models import imggal
 
-# Create your views here.
-def welcome(request):
-    return HttpResponse('Welcome to the Photo Garelly')
-
-
+def imagedisplay(request):
+    resultsdisplay= imggal.objects.all()
+    return render(request, 'index.html', {'imggal':resultsdisplay})
