@@ -9,19 +9,19 @@
     
 
 </head>
-<body>
+<body style="background-color: lightcyan;">
     <div class="tit" style="text-align: center;">
-        <h1>How to create a dynamically image garelly project</h1>
-        <h2>Django web framework</h2>
+        <h1>The Beauty of Visual Art</h1>
+        <h2>Below are them</h2>
         <hr/>
     </div>
     <div class="container">
         <div class="row">
             
         {%for results in imggal%}
-        <div class="col-3" style="text-align: center;">
-        <h3 style="color: blue;">{{results.imgtitle}}</h3>
-        <img src="{{results.image.url}}" height="150" width="160" alt = "{{results.imagetitle}}" title="{{results.imagetitle}}">
+        <div class="col-4" style="text-align: center;">
+        <h3 style="color: green;">{{results.imgtitle}}</h3>
+        <img src="{{results.image.url}}" height="200" width="250" alt = "{{results.imagetitle}}" title="{{results.imagetitle}}">
         <br/>
         <b>{{results.imgdesc}}</b>
         
